@@ -2,6 +2,7 @@
   <div>
     <hero />
     <features />
+    <team />
     <teasers />
     <prices />
     <call-to-action />
@@ -10,6 +11,7 @@
 
 <script>
 import Hero from '@/components/Hero'
+import Team from '@/components/Team'
 import Features from '@/components/Features'
 import Teasers from '@/components/Teasers'
 import Prices from '@/components/Prices'
@@ -18,6 +20,7 @@ export default {
   name: 'LandingPage',
   components: {
     hero: Hero,
+    team: Team,
     features: Features,
     teasers: Teasers,
     prices: Prices,
